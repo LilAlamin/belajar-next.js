@@ -1,6 +1,7 @@
 import { IconBookmark, IconHeart, IconShare } from '@tabler/icons-react';
 import { Card, Image, Text, ActionIcon, Badge, Group, Center, Avatar, useMantineTheme, rem } from '@mantine/core';
 import classes from '@/styles/ArticleCard.module.css';
+import react from 'react';
 
 export function ArticleCard({ imgSrc, imgHref, badgeContent, titleContent, linkHref, linkRel, reviewContent, avatarSrc, author }) {
   const theme = useMantineTheme();

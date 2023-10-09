@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Container, Group, Burger } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import react from 'react';
+
 import { MantineLogo } from '@mantine/ds';
 import classes from '@/styles/HeaderSimple.module.css';
 

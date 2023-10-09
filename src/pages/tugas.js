@@ -1,11 +1,11 @@
 import React from 'react'
-import { HeroImageBackground } from './component/page'
-import { HeaderSimple } from './component/header'
-import { FooterLinks } from './component/footer'
-import { StatsGroup } from './component/page2'
+import { HeroImageBackground } from '../component/page'
+import { HeaderSimple } from '../component/header'
+import { FooterLinks } from '../component/footer'
+import { StatsGroup } from '../component/page2'
 import { Container, Center, Title } from '@mantine/core';
 
-import { LeadGrid } from './component/page3'
+import { LeadGrid } from '../component/page3'
 
 export default function tugas() {
   return (
