@@ -2,7 +2,8 @@
     position: relative;
     padding-top: rem(380px);
     padding-bottom: rem(330px);
-    margin-top: -7.5%;
+    /* margin-top: -7.5%; */
+    margin-top: -13vh;
     background-image: url(https://arusgadget.com/wp-content/uploads/2022/11/Gigabyte-Nvidia-GTX-1650-VGA-Single-Fan.png);
     background-size: cover;
     background-position: center;
@@ -10,7 +11,7 @@
     @media (max-width: $mantine-breakpoint-xs) {
       padding-top: rem(80px);
       padding-bottom: rem(50px);
-      margin-top: -29%;
+      margin-top: -17vh;
     }
   }
   

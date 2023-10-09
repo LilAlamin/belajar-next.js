@@ -3,6 +3,9 @@ import { HeroImageBackground } from './component/page'
 import { HeaderSimple } from './component/header'
 import { FooterLinks } from './component/footer'
 import { StatsGroup } from './component/page2'
+import { Container, Center, Title } from '@mantine/core';
+
+import { LeadGrid } from './component/page3'
 
 export default function tugas() {
   return (
@@ -11,20 +14,28 @@ export default function tugas() {
       flexDirection: 'column',
       height: '100vh',
       overflow: 'auto',
-      scrollbarWidth: 'none', /* Firefox */
-      msOverflowStyle: 'none', /* Internet Explorer 10+ */
+      scrollbarWidth: 'none', 
+      msOverflowStyle: 'none', 
     }}>
       <style>
         {`
-          /* Hide scrollbar for Chrome, Safari and Opera */
           div::-webkit-scrollbar {
             display: none;
           }
         `}
       </style>
+  
       <HeaderSimple/>
       <HeroImageBackground/>
       <StatsGroup/>
+  
+      <Container size="xl" padding="lg">
+        <Center>
+          <Title order={1} align="center">On Trending Games</Title>
+        </Center>
+      </Container>
+        
+      <LeadGrid/>
       <FooterLinks/>
     </div>
   )
